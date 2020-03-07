@@ -33,7 +33,7 @@ router.post(
     const { name, email, password } = req.body;
     try {
       // Check user exists
-      let user = await User.findOne({ email: email });
+      let user = await User.findOne({ email: email }); //database call
       if (user) {
         return res
           .status(400)
