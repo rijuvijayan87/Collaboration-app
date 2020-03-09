@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://rijuadmin:rijuadmin@collaboration-0rblw.mongodb.net/test?retryWrites=true&w=majority",
-  "jwtSecret": "mySecretToken"
+  "jwtSecret": "mySecretToken",
+  "githubClientId": "80fa5040c54759bea4b7",
+  "githubSecret": "40cc1116d085e0e65243d672de427e4bef84a642"
 }
